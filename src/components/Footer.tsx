@@ -51,7 +51,7 @@ const Footer = () => {
             <h4 className="font-heading font-semibold text-sm uppercase tracking-wider mb-4">Contato</h4>
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-sm text-background/70">
-                <Phone size={16} className="text-primary" /> (00) 0000-0000
+                <Phone size={16} className="text-primary" /> (84) 99681-0471
               </li>
               <li className="flex items-center gap-2 text-sm text-background/70">
                 <Mail size={16} className="text-primary" /> contato@casadobizote.com.br
