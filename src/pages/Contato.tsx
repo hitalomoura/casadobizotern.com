@@ -52,7 +52,7 @@ const Contato = () => {
                   </div>
                   <div>
                     <h3 className="font-heading font-semibold text-foreground">E-mail</h3>
-                    <p className="text-muted-foreground">contato@casadobizote.com.br</p>
+                    <p className="text-muted-foreground">casadobizote.financeiro@hotmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
