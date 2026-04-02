@@ -62,7 +62,7 @@ const Index = () => {
                   Solicitar Orçamento
                 </Button>
               </Link>
-              <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-heading font-semibold text-base px-8">
                   <MessageCircle size={20} className="mr-2" /> Fale no WhatsApp
                 </Button>
