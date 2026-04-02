@@ -34,7 +34,7 @@ const Contato = () => {
                   </div>
                   <div>
                     <h3 className="font-heading font-semibold text-foreground">Telefone</h3>
-                    <p className="text-muted-foreground">(00) 0000-0000</p>
+                    <p className="text-muted-foreground">(84) 99681-0471</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
