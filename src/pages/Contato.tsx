@@ -43,7 +43,7 @@ const Contato = () => {
                   </div>
                   <div>
                     <h3 className="font-heading font-semibold text-foreground">WhatsApp</h3>
-                    <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(00) 00000-0000</a>
+                    <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(84) 99681-0471</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
