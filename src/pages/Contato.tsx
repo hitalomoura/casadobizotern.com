@@ -69,7 +69,7 @@ const Contato = () => {
               {/* Map */}
               <div className="rounded-lg overflow-hidden border border-border h-64">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253052.17897710995!2d-35.36358!3d-5.79357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ffb2a2c7b1d1%3A0x507d2fee2f6f7b6!2sNatal%2C%20RN!5e0!3m2!1spt-BR!2sbr!4v1"
+                  src="https://www.google.com/maps/embed?src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63576.30536529857!2d-35.2630!3d-5.9116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b255e116c3213f%3A0xa9f3c9e5e8c5e50e!2sParnamirim%2C%20RN!5e0!3m2!1spt-BR!2sbr!4v1"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

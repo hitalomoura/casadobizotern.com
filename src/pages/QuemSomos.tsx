@@ -19,7 +19,7 @@ const QuemSomos = () => {
               </p>
               <h3 className="font-heading font-semibold text-xl text-foreground mb-3">Nossa História</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Fundada em [ANO DE FUNDAÇÃO], a empresa nasceu com o propósito de oferecer soluções em vidro com alto padrão de qualidade. Ao longo dos anos, vem se consolidando como referência no mercado.
+                Fundada em Parnamirim-RN, a empresa nasceu com o propósito de oferecer soluções em vidro com alto padrão de qualidade. Ao longo dos anos, vem se consolidando como referência no mercado.
               </p>
             </div>
             <div className="rounded-lg overflow-hidden">
