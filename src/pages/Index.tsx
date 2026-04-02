@@ -62,7 +62,7 @@ const Index = () => {
                   Solicitar Orçamento
                 </Button>
               </Link>
-              <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-heading font-semibold text-base px-8">
                   <MessageCircle size={20} className="mr-2" /> Fale no WhatsApp
                 </Button>
@@ -173,7 +173,7 @@ const Index = () => {
           <p className="text-primary-foreground/80 text-lg mb-8 max-w-xl mx-auto">
             Entre em contato pelo WhatsApp e receba um atendimento personalizado.
           </p>
-          <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold text-base px-10">
               <MessageCircle size={22} className="mr-2" /> Fale no WhatsApp
             </Button>

@@ -34,7 +34,7 @@ const Contato = () => {
                   </div>
                   <div>
                     <h3 className="font-heading font-semibold text-foreground">Telefone</h3>
-                    <p className="text-muted-foreground">(00) 0000-0000</p>
+                    <p className="text-muted-foreground">(84) 99681-0471</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -43,7 +43,7 @@ const Contato = () => {
                   </div>
                   <div>
                     <h3 className="font-heading font-semibold text-foreground">WhatsApp</h3>
-                    <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(00) 00000-0000</a>
+                    <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(84) 99681-0471</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -52,7 +52,7 @@ const Contato = () => {
                   </div>
                   <div>
                     <h3 className="font-heading font-semibold text-foreground">E-mail</h3>
-                    <p className="text-muted-foreground">contato@casadobizote.com.br</p>
+                    <p className="text-muted-foreground">casadobizote.financeiro@hotmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -61,7 +61,7 @@ const Contato = () => {
                   </div>
                   <div>
                     <h3 className="font-heading font-semibold text-foreground">Endereço</h3>
-                    <p className="text-muted-foreground">Natal - RN, Brasil</p>
+                    <p className="text-muted-foreground">Parnamirim - RN, Brasil</p>
                   </div>
                 </div>
               </div>
@@ -69,7 +69,7 @@ const Contato = () => {
               {/* Map */}
               <div className="rounded-lg overflow-hidden border border-border h-64">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253052.17897710995!2d-35.36358!3d-5.79357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ffb2a2c7b1d1%3A0x507d2fee2f6f7b6!2sNatal%2C%20RN!5e0!3m2!1spt-BR!2sbr!4v1"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63576.30536529857!2d-35.2630!3d-5.9116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b255e116c3213f%3A0xa9f3c9e5e8c5e50e!2sParnamirim%2C%20RN!5e0!3m2!1spt-BR!2sbr!4v1"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

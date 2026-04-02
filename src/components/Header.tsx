@@ -38,7 +38,7 @@ const Header = () => {
               {item.label}
             </Link>
           ))}
-          <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer">
             <Button className="bg-primary text-primary-foreground hover:bg-primary/90 font-heading font-semibold text-sm px-6">
               Solicitar Orçamento
             </Button>
@@ -67,7 +67,7 @@ const Header = () => {
                 {item.label}
               </Link>
             ))}
-            <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer">
               <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-heading font-semibold mt-2">
                 Solicitar Orçamento
               </Button>

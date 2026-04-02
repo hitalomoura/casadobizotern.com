@@ -70,7 +70,7 @@ const BoxBanheiro = () => {
         <div className="container mx-auto">
           <h2 className="font-heading text-3xl font-bold text-primary-foreground mb-4">Solicite seu box sob medida</h2>
           <p className="text-primary-foreground/80 mb-8">Fale com nossa equipe e receba um orçamento personalizado.</p>
-          <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold">
               <MessageCircle size={20} className="mr-2" /> Fale no WhatsApp
             </Button>
