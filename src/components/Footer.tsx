@@ -1,0 +1,76 @@
+import { Link } from "react-router-dom";
+import { Phone, Mail, MapPin } from "lucide-react";
+
+const Footer = () => {
+  return (
+    <footer className="bg-foreground text-background">
+      <div className="container mx-auto section-padding">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <div>
+            <h3 className="text-xl font-bold mb-4">
+              Casa do <span className="text-primary">Bizotê</span>
+            </h3>
+            <p className="text-background/70 text-sm leading-relaxed">
+              Soluções em vidro com sofisticação, qualidade e atendimento especializado.
+            </p>
+          </div>
+
+          <div>
+            <h4 className="font-heading font-semibold text-sm uppercase tracking-wider mb-4">Navegação</h4>
+            <ul className="space-y-2">
+              {[
+                { label: "Início", path: "/" },
+                { label: "Quem Somos", path: "/quem-somos" },
+                { label: "Produtos", path: "/produtos" },
+                { label: "Serviços", path: "/servicos" },
+                { label: "Contato", path: "/contato" },
+              ].map((item) => (
+                <li key={item.path}>
+                  <Link to={item.path} className="text-sm text-background/70 hover:text-primary transition-colors">
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-heading font-semibold text-sm uppercase tracking-wider mb-4">Produtos</h4>
+            <ul className="space-y-2">
+              {["Vidro Incolor", "Vidro Colorido", "Vidro Laminado", "Espelhos", "Box para Banheiro"].map((p) => (
+                <li key={p}>
+                  <Link to="/produtos" className="text-sm text-background/70 hover:text-primary transition-colors">
+                    {p}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-heading font-semibold text-sm uppercase tracking-wider mb-4">Contato</h4>
+            <ul className="space-y-3">
+              <li className="flex items-center gap-2 text-sm text-background/70">
+                <Phone size={16} className="text-primary" /> (00) 0000-0000
+              </li>
+              <li className="flex items-center gap-2 text-sm text-background/70">
+                <Mail size={16} className="text-primary" /> contato@casadobizote.com.br
+              </li>
+              <li className="flex items-start gap-2 text-sm text-background/70">
+                <MapPin size={16} className="text-primary mt-0.5" /> Natal - RN
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="border-t border-background/10 mt-12 pt-8 text-center">
+          <p className="text-sm text-background/50">
+            © {new Date().getFullYear()} Casa do Bizotê. Todos os direitos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
