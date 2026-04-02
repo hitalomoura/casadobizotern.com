@@ -61,7 +61,7 @@ const Contato = () => {
                   </div>
                   <div>
                     <h3 className="font-heading font-semibold text-foreground">Endereço</h3>
-                    <p className="text-muted-foreground">Natal - RN, Brasil</p>
+                    <p className="text-muted-foreground">Parnamirim - RN, Brasil</p>
                   </div>
                 </div>
               </div>
