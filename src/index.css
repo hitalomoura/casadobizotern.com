@@ -15,16 +15,16 @@
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 8%;
 
-    --primary: 198 80% 28%;
+    --primary: 138 65% 35%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 40 30% 92%;
+    --secondary: 138 20% 94%;
     --secondary-foreground: 0 0% 15%;
 
-    --muted: 210 20% 96%;
+    --muted: 138 10% 96%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 40 60% 50%;
+    --accent: 138 70% 28%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -32,14 +32,14 @@
 
     --border: 0 0% 90%;
     --input: 0 0% 90%;
-    --ring: 198 80% 28%;
+    --ring: 138 65% 35%;
 
     --radius: 0.5rem;
 
-    --glass-teal: 198 80% 28%;
-    --glass-teal-light: 198 60% 90%;
-    --gold: 40 60% 50%;
-    --gold-light: 40 40% 94%;
+    --glass-teal: 138 65% 35%;
+    --glass-teal-light: 138 40% 92%;
+    --gold: 138 70% 28%;
+    --gold-light: 138 20% 94%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
