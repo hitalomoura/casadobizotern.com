@@ -27,14 +27,6 @@ const produtos = [
   { name: "Vidro de Controle Solar", img: vidroSolar },
 ];
 
-const servicos = [
-  "Corte sob medida",
-  "Lapidação",
-  "Instalação",
-  "Consultoria técnica",
-  "Projetos personalizados",
-  "Manutenção",
-];
 
 const clientes = [
   "Construtora Alpha", "Arquitetura Studio", "Design Interior", "Vidraçaria Premium",
