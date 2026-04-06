@@ -21,7 +21,6 @@ const Footer = () => {
                 { label: "Início", path: "/" },
                 { label: "Quem Somos", path: "/quem-somos" },
                 { label: "Produtos", path: "/produtos" },
-                { label: "Serviços", path: "/servicos" },
                 { label: "Contato", path: "/contato" },
               ].map((item) => (
                 <li key={item.path}>

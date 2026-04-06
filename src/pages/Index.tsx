@@ -128,19 +128,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Serviços */}
-      <section className="section-padding">
-        <div className="container mx-auto">
-          <SectionTitle title="Nossos Serviços" subtitle="Soluções completas em vidro para seu projeto" />
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {servicos.map((s) => (
-              <div key={s} className="border border-border rounded-lg p-6 hover:border-primary/50 hover:shadow-sm transition-all">
-                <h3 className="font-heading font-semibold text-foreground">{s}</h3>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Clientes */}
       <section className="section-padding bg-muted">
