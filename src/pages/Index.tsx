@@ -12,10 +12,10 @@ import vidroPintado from "@/assets/vidro-pintado.jpg";
 import vidroSolar from "@/assets/vidro-controle-solar.jpg";
 
 const diferenciais = [
-  { icon: Award, title: "Qualidade Premium", desc: "Materiais de alto padrão e acabamento impecável." },
-  { icon: Ruler, title: "Sob Medida", desc: "Projetos personalizados para cada ambiente." },
+  { icon: Award, title: "Qualidade", desc: "Materiais de alto padrão e acabamento impecável." },
+  { icon: Ruler, title: "Projetos Personalizados", desc: "Soluções sob medida para cada ambiente." },
+  { icon: Wrench, title: "Prazo de Entrega Reduzido", desc: "Agilidade e compromisso com os prazos." },
   { icon: HeadphonesIcon, title: "Atendimento Especializado", desc: "Equipe técnica qualificada e consultiva." },
-  { icon: Wrench, title: "Instalação Profissional", desc: "Montagem com precisão e segurança." },
 ];
 
 const produtos = [
@@ -63,7 +63,7 @@ const Index = () => {
                 </Button>
               </Link>
               <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer">
-                <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-heading font-semibold text-base px-8">
+                <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold text-base px-8">
                   <MessageCircle size={20} className="mr-2" /> Fale no WhatsApp
                 </Button>
               </a>
