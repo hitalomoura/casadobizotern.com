@@ -1,5 +1,4 @@
 import PageBanner from "@/components/PageBanner";
-import SectionTitle from "@/components/SectionTitle";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
@@ -13,51 +12,57 @@ import vidroSolar from "@/assets/vidro-controle-solar.jpg";
 const produtos = [
   {
     name: "Vidro Incolor",
+    subtitulo: "Comum e Temperado",
     img: vidroIncolor,
-    desc: "O vidro incolor é o mais versátil e utilizado. Oferece alta transparência e luminosidade aos ambientes.",
-    aplicacoes: "Janelas, portas, fachadas, divisórias, tampos de mesa",
-    cores: "Transparente",
-    espessuras: "3mm, 4mm, 5mm, 6mm, 8mm, 10mm",
+    desc: "Transparência e versatilidade para qualquer projeto.",
+    aplicacoes: "Portas, janelas, divisórias, móveis, vitrines",
+    cores: "Incolor",
+    espessuras: "4mm | 6mm | 8mm | 10mm | 12mm | 15mm",
   },
   {
     name: "Vidro Colorido",
+    subtitulo: "Comum e Temperado",
     img: vidroColorido,
-    desc: "Vidros coloridos oferecem estética diferenciada e controle parcial de luminosidade, sem perder a transparência.",
-    aplicacoes: "Fachadas, divisórias decorativas, portas, janelas",
-    cores: "Fumê, verde, bronze, azul",
-    espessuras: "4mm, 6mm, 8mm, 10mm",
+    desc: "Mais estilo e personalidade para seus ambientes.",
+    aplicacoes: "Fachadas, móveis, portas, divisórias",
+    cores: "Verde, Fumê",
+    espessuras: "4mm | 6mm | 8mm | 10mm",
   },
   {
     name: "Vidro Laminado",
+    subtitulo: "Comum",
     img: vidroLaminado,
-    desc: "Composto por duas ou mais lâminas de vidro unidas por película de segurança. Em caso de quebra, os fragmentos ficam aderidos à película.",
-    aplicacoes: "Coberturas, guarda-corpos, pisos, fachadas, sacadas",
-    cores: "Incolor, fumê, verde, bronze",
-    espessuras: "6mm, 8mm, 10mm, 12mm",
+    desc: "Segurança e beleza em perfeita harmonia.",
+    aplicacoes: "Guarda-corpos, fachadas, coberturas",
+    cores: "Incolor, verde, fumê refletivo, bronze refletivo",
+    espessuras: "6mm (3+3) | 8mm (4+4)",
   },
   {
     name: "Espelhos",
+    subtitulo: "",
     img: espelho,
-    desc: "Espelhos de alta definição com acabamento premium. Ideais para ambientes residenciais e comerciais.",
-    aplicacoes: "Banheiros, closets, salões, academias, decoração",
-    cores: "Cristal, fumê, bronze",
-    espessuras: "3mm, 4mm, 6mm",
+    desc: "Amplitude e sofisticação para qualquer ambiente.",
+    aplicacoes: "Banheiros, salas, móveis",
+    cores: "Prata, bronze, fumê",
+    espessuras: "3mm | 4mm",
   },
   {
     name: "Vidro Pintado",
+    subtitulo: "Comum",
     img: vidroPintado,
-    desc: "Vidro com pintura aplicada em uma das faces, criando superfícies opacas e coloridas com visual sofisticado.",
-    aplicacoes: "Revestimento de paredes, cozinhas, banheiros, móveis",
-    cores: "Preto, branco, vermelho, e cores sob consulta",
-    espessuras: "4mm, 6mm, 8mm",
+    desc: "Design moderno e acabamento sofisticado.",
+    aplicacoes: "Paredes, cozinhas, móveis",
+    cores: "Branco, preto, nude, bronze",
+    espessuras: "4mm",
   },
   {
     name: "Vidro de Controle Solar",
+    subtitulo: "Refletivos",
     img: vidroSolar,
-    desc: "Vidro com camada metalizada que reflete os raios solares, reduzindo o aquecimento interno e a incidência de luz.",
-    aplicacoes: "Fachadas, coberturas, janelas de grandes áreas",
-    cores: "Prata, azul, verde, bronze",
-    espessuras: "6mm, 8mm",
+    desc: "Conforto térmico e eficiência energética.",
+    aplicacoes: "Fachadas, janelas, coberturas",
+    cores: "Bronze, fumê, azul (Sun Light)",
+    espessuras: "4mm | 6mm | 8mm | 10mm",
   },
 ];
 
@@ -74,7 +79,8 @@ const Produtos = () => {
                 <img src={p.img} alt={p.name} loading="lazy" width={640} height={640} className="w-full rounded-lg object-cover aspect-[4/3]" />
               </div>
               <div className={i % 2 !== 0 ? "lg:[direction:ltr]" : ""}>
-                <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-4">{p.name}</h2>
+                <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-1">{p.name}</h2>
+                {p.subtitulo && <p className="text-sm font-medium text-primary mb-4">{p.subtitulo}</p>}
                 <p className="text-muted-foreground leading-relaxed mb-6">{p.desc}</p>
                 <div className="space-y-3 text-sm">
                   <p><span className="font-semibold text-foreground">Aplicações:</span> <span className="text-muted-foreground">{p.aplicacoes}</span></p>
@@ -87,7 +93,6 @@ const Produtos = () => {
         </section>
       ))}
 
-      {/* CTA */}
       <section className="bg-primary section-padding text-center">
         <div className="container mx-auto">
           <h2 className="font-heading text-3xl font-bold text-primary-foreground mb-4">Não encontrou o que procura?</h2>

@@ -2,15 +2,15 @@ import PageBanner from "@/components/PageBanner";
 import SectionTitle from "@/components/SectionTitle";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Scissors, Sparkles, Wrench, MessageSquare, PenTool, Settings, ArrowRight } from "lucide-react";
+import { Scissors, Sparkles, Wrench, PenTool, ArrowRight, Diamond } from "lucide-react";
+import { AlertTriangle } from "lucide-react";
 
 const servicos = [
+  { icon: Diamond, name: "Bizotê", desc: "Acabamento chanfrado decorativo nas bordas do vidro, agregando sofisticação e estilo." },
   { icon: Scissors, name: "Corte sob medida", desc: "Corte preciso em vidros de diversas espessuras e formatos para atender projetos específicos." },
   { icon: Sparkles, name: "Lapidação", desc: "Acabamento refinado nas bordas do vidro para maior segurança e estética." },
-  { icon: Wrench, name: "Instalação profissional", desc: "Montagem por equipe especializada com foco em segurança e precisão." },
-  { icon: MessageSquare, name: "Consultoria técnica", desc: "Orientação completa para escolha dos melhores vidros e soluções para seu projeto." },
+  { icon: Wrench, name: "Têmpera", desc: "Processo térmico que aumenta a resistência do vidro em até 5 vezes." },
   { icon: PenTool, name: "Projetos personalizados", desc: "Desenvolvimento de soluções em vidro sob medida para projetos exclusivos." },
-  { icon: Settings, name: "Manutenção", desc: "Serviços de reparo e manutenção em instalações de vidro existentes." },
 ];
 
 const Servicos = () => {
@@ -31,6 +31,23 @@ const Servicos = () => {
                 <p className="text-sm text-muted-foreground leading-relaxed">{s.desc}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section-padding bg-muted">
+        <div className="container mx-auto max-w-3xl">
+          <div className="bg-card border border-border rounded-lg p-8">
+            <div className="flex items-start gap-4">
+              <AlertTriangle size={28} className="text-accent shrink-0 mt-1" />
+              <div>
+                <h3 className="font-heading font-semibold text-lg text-foreground mb-3">Informações Importantes</h3>
+                <ul className="space-y-3 text-sm text-muted-foreground leading-relaxed">
+                  <li>Não nos responsabilizamos por eventuais danos em peças de terceiros.</li>
+                  <li>Após a conferência e aprovação do projeto, o cliente declara estar ciente e de acordo com todas as medidas, especificações e detalhes, assumindo integral responsabilidade pelas informações aprovadas.</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>

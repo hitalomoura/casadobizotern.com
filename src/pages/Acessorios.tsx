@@ -6,15 +6,14 @@ import { ArrowRight } from "lucide-react";
 import acessoriosImg from "@/assets/acessorios.jpg";
 
 const itens = [
-  { name: "Ferragens", desc: "Componentes estruturais para fixação e sustentação de vidros." },
   { name: "Puxadores", desc: "Puxadores com design moderno para portas e boxes de vidro." },
-  { name: "Dobradiças", desc: "Dobradiças de alta resistência para portas de vidro temperado." },
-  { name: "Trilhos", desc: "Sistemas de trilhos para portas e boxes de correr." },
-  { name: "Perfis", desc: "Perfis de alumínio e inox para acabamento em instalações de vidro." },
   { name: "Suportes", desc: "Suportes para prateleiras, tampos e painéis de vidro." },
+  { name: "Silicone", desc: "Silicone de alta qualidade para vedação e acabamento em vidro." },
+  { name: "Fixa Espelho", desc: "Sistemas de fixação seguros e discretos para espelhos." },
+  { name: "Kit Alumínio para Box", desc: "Kits completos em alumínio para instalação de boxes." },
 ];
 
-const acabamentos = ["Cromado", "Preto", "Inox", "Dourado"];
+const acabamentos = ["Cromado", "Preto", "Inox", "Dourado", "Branco"];
 
 const Acessorios = () => {
   return (
