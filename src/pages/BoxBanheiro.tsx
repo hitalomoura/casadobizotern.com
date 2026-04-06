@@ -5,19 +5,20 @@ import { MessageCircle } from "lucide-react";
 import boxImg from "@/assets/box-banheiro.jpg";
 
 const modelos = [
-  { name: "Box de Correr", desc: "Ideal para espaços compactos. Portas deslizantes com sistema de trilhos." },
-  { name: "Box de Abrir", desc: "Abertura tipo porta convencional. Excelente vedação e visual limpo." },
-  { name: "Box Até o Teto", desc: "Cobertura total para máxima proteção contra respingos e vapor." },
-  { name: "Box Sob Medida", desc: "Projetos personalizados para qualquer formato de banheiro." },
+  { name: "Padrão", desc: "Modelo clássico com excelente custo-benefício." },
+  { name: "Correr", desc: "Ideal para espaços compactos. Portas deslizantes com sistema de trilhos." },
+  { name: "Giro", desc: "Abertura tipo porta convencional com visual limpo e elegante." },
+  { name: "Até o Teto", desc: "Cobertura total para máxima proteção contra respingos e vapor." },
+  { name: "Sob Medida", desc: "Projetos personalizados para qualquer formato de banheiro." },
 ];
 
-const tiposVidro = ["Incolor", "Jateado", "Fumê", "Verde"];
-const espessuras = ["6mm", "8mm", "10mm"];
+const tiposVidro = ["Incolor", "Fumê", "Verde", "Refletivo"];
+const espessuras = ["8mm"];
 
 const BoxBanheiro = () => {
   return (
     <main>
-      <PageBanner title="Box para Banheiro" subtitle="Design, segurança e sofisticação para seu banheiro" />
+      <PageBanner title="Box para Banheiro" subtitle="Segurança, vedação e sofisticação" />
 
       <section className="section-padding">
         <div className="container mx-auto">
@@ -40,10 +41,10 @@ const BoxBanheiro = () => {
 
       <section className="section-padding bg-muted">
         <div className="container mx-auto">
-          <SectionTitle title="Tipos de Vidro e Espessuras" />
+          <SectionTitle title="Vidros e Espessuras" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-2xl mx-auto">
             <div>
-              <h3 className="font-heading font-semibold text-lg text-foreground mb-4">Tipos de Vidro</h3>
+              <h3 className="font-heading font-semibold text-lg text-foreground mb-4">Vidros</h3>
               <ul className="space-y-2">
                 {tiposVidro.map((t) => (
                   <li key={t} className="flex items-center gap-2 text-muted-foreground">
