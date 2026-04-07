@@ -4,22 +4,23 @@ import SectionTitle from "@/components/SectionTitle";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import bannerContato from "@/assets/banner-contato.jpg";
 
 const Contato = () => {
   const { toast } = useToast();
-  const [form, setForm] = useState({ nome: "", email: "", telefone: "", mensagem: "" });
+  const [formData, setFormData] = useState({ nome: "", email: "", telefone: "", mensagem: "" });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({ title: "Mensagem enviada!", description: "Entraremos em contato em breve." });
-    setForm({ nome: "", email: "", telefone: "", mensagem: "" });
+    setFormData({ nome: "", email: "", telefone: "", mensagem: "" });
   };
 
   return (
     <main>
-      <PageBanner title="Contato" subtitle="Entre em contato conosco" />
+      <PageBanner title="Contato" subtitle="Entre em contato conosco" bgImage={bannerContato} />
 
       <section className="section-padding">
         <div className="container mx-auto">
@@ -87,19 +88,19 @@ const Contato = () => {
               <form onSubmit={handleSubmit} className="space-y-5">
                 <div>
                   <label className="text-sm font-medium text-foreground mb-1 block">Nome</label>
-                  <Input value={form.nome} onChange={(e) => setForm({ ...form, nome: e.target.value })} required placeholder="Seu nome completo" />
+                  <Input value={formData.nome} onChange={(e) => setFormData({ ...formData, nome: e.target.value })} required placeholder="Seu nome completo" />
                 </div>
                 <div>
                   <label className="text-sm font-medium text-foreground mb-1 block">E-mail</label>
-                  <Input type="email" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} required placeholder="seu@email.com" />
+                  <Input type="email" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} required placeholder="seu@email.com" />
                 </div>
                 <div>
                   <label className="text-sm font-medium text-foreground mb-1 block">Telefone</label>
-                  <Input value={form.telefone} onChange={(e) => setForm({ ...form, telefone: e.target.value })} placeholder="(00) 00000-0000" />
+                  <Input value={formData.telefone} onChange={(e) => setFormData({ ...formData, telefone: e.target.value })} placeholder="(00) 00000-0000" />
                 </div>
                 <div>
                   <label className="text-sm font-medium text-foreground mb-1 block">Mensagem</label>
-                  <Textarea value={form.mensagem} onChange={(e) => setForm({ ...form, mensagem: e.target.value })} required rows={5} placeholder="Descreva o que você precisa..." />
+                  <Textarea value={formData.mensagem} onChange={(e) => setFormData({ ...formData, mensagem: e.target.value })} required rows={5} placeholder="Descreva o que você precisa..." />
                 </div>
                 <Button type="submit" size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-heading font-semibold">
                   Enviar Mensagem

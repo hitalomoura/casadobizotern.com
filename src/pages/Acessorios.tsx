@@ -3,48 +3,32 @@ import SectionTitle from "@/components/SectionTitle";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import acessoriosImg from "@/assets/acessorios.jpg";
+import bannerAcessorios from "@/assets/banner-acessorios.jpg";
 
-const itens = [
-  { name: "Puxadores", desc: "Puxadores com design moderno para portas e boxes de vidro." },
-  { name: "Suportes", desc: "Suportes para prateleiras, tampos e painéis de vidro." },
-  { name: "Silicone", desc: "Silicone de alta qualidade para vedação e acabamento em vidro." },
-  { name: "Fixa Espelho", desc: "Sistemas de fixação seguros e discretos para espelhos." },
-  { name: "Kit Alumínio para Box", desc: "Kits completos em alumínio para instalação de boxes." },
+const categorias = [
+  { nome: "Puxadores", desc: "Puxadores modernos para portas e janelas de vidro.", acabamentos: "Cromado, Preto, Inox, Dourado" },
+  { nome: "Dobradiças", desc: "Dobradiças de alta resistência para vidro temperado.", acabamentos: "Cromado, Preto, Inox, Dourado" },
+  { nome: "Trilhos", desc: "Trilhos para portas e painéis de vidro deslizantes.", acabamentos: "Cromado, Preto, Inox, Dourado" },
+  { nome: "Perfis", desc: "Perfis de acabamento para instalações em vidro.", acabamentos: "Cromado, Preto, Inox, Dourado" },
+  { nome: "Suportes", desc: "Suportes e fixadores para prateleiras e painéis.", acabamentos: "Cromado, Preto, Inox, Dourado" },
 ];
-
-const acabamentos = ["Cromado", "Preto", "Inox", "Dourado", "Branco"];
 
 const Acessorios = () => {
   return (
     <main>
-      <PageBanner title="Acessórios" subtitle="Ferragens e acessórios para vidro com acabamento premium" />
+      <PageBanner title="Acessórios" subtitle="Ferragens e acessórios para vidro com acabamento premium" bgImage={bannerAcessorios} />
 
       <section className="section-padding">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-            <div>
-              <SectionTitle title="Linha de Acessórios" centered={false} />
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {itens.map((item) => (
-                  <div key={item.name} className="border border-border rounded-lg p-5 hover:border-primary/40 transition-colors">
-                    <h3 className="font-heading font-semibold text-foreground mb-1">{item.name}</h3>
-                    <p className="text-sm text-muted-foreground">{item.desc}</p>
-                  </div>
-                ))}
+          <SectionTitle title="Linha de Acessórios" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {categorias.map((cat) => (
+              <div key={cat.nome} className="border border-border rounded-lg p-6 hover:border-primary/40 transition-colors">
+                <h3 className="font-heading font-semibold text-foreground mb-2">{cat.nome}</h3>
+                <p className="text-sm text-muted-foreground mb-3">{cat.desc}</p>
+                <p className="text-xs text-primary font-medium">Acabamentos: {cat.acabamentos}</p>
               </div>
-            </div>
-            <div>
-              <img src={acessoriosImg} alt="Acessórios para vidro" loading="lazy" width={640} height={640} className="w-full rounded-lg object-cover aspect-square mb-8" />
-              <div className="bg-muted rounded-lg p-6">
-                <h3 className="font-heading font-semibold text-lg text-foreground mb-4">Acabamentos Disponíveis</h3>
-                <div className="flex flex-wrap gap-3">
-                  {acabamentos.map((a) => (
-                    <span key={a} className="bg-background border border-border rounded-full px-4 py-2 text-sm font-medium text-foreground">{a}</span>
-                  ))}
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>

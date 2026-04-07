@@ -3,22 +3,22 @@ import SectionTitle from "@/components/SectionTitle";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Palette, Ruler } from "lucide-react";
 import boxImg from "@/assets/box-banheiro.jpg";
+import bannerBox from "@/assets/banner-box.jpg";
 
 const modelos = [
-  { name: "Padrão", desc: "Modelo clássico com excelente custo-benefício." },
-  { name: "Correr", desc: "Ideal para espaços compactos. Portas deslizantes com sistema de trilhos." },
-  { name: "Giro", desc: "Abertura tipo porta convencional com visual limpo e elegante." },
-  { name: "Até o Teto", desc: "Cobertura total para máxima proteção contra respingos e vapor." },
-  { name: "Sob Medida", desc: "Projetos personalizados para qualquer formato de banheiro." },
+  { nome: "Box de Canto", desc: "Ideal para banheiros compactos, com aproveitamento máximo do espaço." },
+  { nome: "Box Frontal", desc: "Solução elegante com abertura frontal para banheiros amplos." },
+  { nome: "Box de Abrir", desc: "Porta com abertura convencional, prática e funcional." },
+  { nome: "Box de Correr", desc: "Sistema deslizante suave, perfeito para otimizar espaço." },
 ];
 
-const tiposVidro = ["Incolor", "Fumê", "Verde", "Refletivo"];
-const espessuras = ["8mm"];
+const tiposVidro = ["Incolor", "Fumê", "Bronze", "Verde"];
+const espessuras = ["6mm", "8mm", "10mm"];
 
 const BoxBanheiro = () => {
   return (
     <main>
-      <PageBanner title="Box para Banheiro" subtitle="Segurança, vedação e sofisticação" />
+      <PageBanner title="Box para Banheiro" subtitle="Segurança, vedação e sofisticação" bgImage={bannerBox} />
 
       <section className="section-padding">
         <div className="container mx-auto">
@@ -28,8 +28,8 @@ const BoxBanheiro = () => {
               <SectionTitle title="Modelos de Box" centered={false} />
               <div className="space-y-4">
                 {modelos.map((m) => (
-                  <div key={m.name} className="border border-border rounded-lg p-5">
-                    <h3 className="font-heading font-semibold text-foreground mb-1">{m.name}</h3>
+                  <div key={m.nome} className="border border-border rounded-lg p-5">
+                    <h3 className="font-heading font-semibold text-foreground mb-1">{m.nome}</h3>
                     <p className="text-sm text-muted-foreground">{m.desc}</p>
                   </div>
                 ))}

@@ -8,6 +8,7 @@ import vidroLaminado from "@/assets/vidro-laminado.jpg";
 import espelho from "@/assets/espelho.jpg";
 import vidroPintado from "@/assets/vidro-pintado.jpg";
 import vidroSolar from "@/assets/vidro-controle-solar.jpg";
+import bannerProdutos from "@/assets/banner-produtos.jpg";
 
 const produtos = [
   {
@@ -69,7 +70,7 @@ const produtos = [
 const Produtos = () => {
   return (
     <main>
-      <PageBanner title="Produtos" subtitle="Vidros de alta qualidade para todos os projetos" />
+      <PageBanner title="Produtos" subtitle="Vidros de alta qualidade para todos os projetos" bgImage={bannerProdutos} />
 
       {produtos.map((p, i) => (
         <section key={p.name} className={`section-padding ${i % 2 === 0 ? "" : "bg-muted"}`}>

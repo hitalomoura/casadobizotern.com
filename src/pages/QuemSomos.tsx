@@ -2,11 +2,12 @@ import PageBanner from "@/components/PageBanner";
 import SectionTitle from "@/components/SectionTitle";
 import quemSomosImg from "@/assets/quem-somos.jpg";
 import { Target, Eye, Heart } from "lucide-react";
+import bannerQuemSomos from "@/assets/banner-quem-somos.jpg";
 
 const QuemSomos = () => {
   return (
     <main>
-      <PageBanner title="Quem Somos" subtitle="Conheça a Casa do Bizotê" />
+      <PageBanner title="Quem Somos" subtitle="Conheça a Casa do Bizotê" bgImage={bannerQuemSomos} />
 
       {/* Sobre */}
       <section className="section-padding">
