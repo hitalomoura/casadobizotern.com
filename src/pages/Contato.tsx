@@ -96,7 +96,7 @@ const Contato = () => {
                 </div>
                 <div>
                   <label className="text-sm font-medium text-foreground mb-1 block">Telefone</label>
-                  <Input value={form.telefone} onChange={(e) => setForm({ ...form, telefone: e.target.value })} placeholder="(00) 00000-0000" />
+                  <Input value={formData.telefone} onChange={(e) => setFormData({ ...formData, telefone: e.target.value })} placeholder="(00) 00000-0000" />
                 </div>
                 <div>
                   <label className="text-sm font-medium text-foreground mb-1 block">Mensagem</label>
