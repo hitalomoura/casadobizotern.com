@@ -4,22 +4,23 @@ import SectionTitle from "@/components/SectionTitle";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import bannerContato from "@/assets/banner-contato.jpg";
 
 const Contato = () => {
   const { toast } = useToast();
-  const [form, setForm] = useState({ nome: "", email: "", telefone: "", mensagem: "" });
+  const [formData, setFormData] = useState({ nome: "", email: "", telefone: "", mensagem: "" });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({ title: "Mensagem enviada!", description: "Entraremos em contato em breve." });
-    setForm({ nome: "", email: "", telefone: "", mensagem: "" });
+    setFormData({ nome: "", email: "", telefone: "", mensagem: "" });
   };
 
   return (
     <main>
-      <PageBanner title="Contato" subtitle="Entre em contato conosco" />
+      <PageBanner title="Contato" subtitle="Entre em contato conosco" bgImage={bannerContato} />
 
       <section className="section-padding">
         <div className="container mx-auto">

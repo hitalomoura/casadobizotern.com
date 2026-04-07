@@ -3,22 +3,20 @@ import SectionTitle from "@/components/SectionTitle";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import acessoriosImg from "@/assets/acessorios.jpg";
+import bannerAcessorios from "@/assets/banner-acessorios.jpg";
 
-const itens = [
-  { name: "Puxadores", desc: "Puxadores com design moderno para portas e boxes de vidro." },
-  { name: "Suportes", desc: "Suportes para prateleiras, tampos e painéis de vidro." },
-  { name: "Silicone", desc: "Silicone de alta qualidade para vedação e acabamento em vidro." },
-  { name: "Fixa Espelho", desc: "Sistemas de fixação seguros e discretos para espelhos." },
-  { name: "Kit Alumínio para Box", desc: "Kits completos em alumínio para instalação de boxes." },
+const categorias = [
+  { nome: "Puxadores", desc: "Puxadores modernos para portas e janelas de vidro.", acabamentos: "Cromado, Preto, Inox, Dourado" },
+  { nome: "Dobradiças", desc: "Dobradiças de alta resistência para vidro temperado.", acabamentos: "Cromado, Preto, Inox, Dourado" },
+  { nome: "Trilhos", desc: "Trilhos para portas e painéis de vidro deslizantes.", acabamentos: "Cromado, Preto, Inox, Dourado" },
+  { nome: "Perfis", desc: "Perfis de acabamento para instalações em vidro.", acabamentos: "Cromado, Preto, Inox, Dourado" },
+  { nome: "Suportes", desc: "Suportes e fixadores para prateleiras e painéis.", acabamentos: "Cromado, Preto, Inox, Dourado" },
 ];
-
-const acabamentos = ["Cromado", "Preto", "Inox", "Dourado", "Branco"];
 
 const Acessorios = () => {
   return (
     <main>
-      <PageBanner title="Acessórios" subtitle="Ferragens e acessórios para vidro com acabamento premium" />
+      <PageBanner title="Acessórios" subtitle="Ferragens e acessórios para vidro com acabamento premium" bgImage={bannerAcessorios} />
 
       <section className="section-padding">
         <div className="container mx-auto">
