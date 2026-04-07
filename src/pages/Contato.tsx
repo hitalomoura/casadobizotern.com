@@ -92,7 +92,7 @@ const Contato = () => {
                 </div>
                 <div>
                   <label className="text-sm font-medium text-foreground mb-1 block">E-mail</label>
-                  <Input type="email" value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} required placeholder="seu@email.com" />
+                  <Input type="email" value={formData.email} onChange={(e) => setFormData({ ...formData, email: e.target.value })} required placeholder="seu@email.com" />
                 </div>
                 <div>
                   <label className="text-sm font-medium text-foreground mb-1 block">Telefone</label>
