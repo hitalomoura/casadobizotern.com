@@ -82,10 +82,28 @@ const Produtos = () => {
                 <h2 className="font-heading text-2xl md:text-3xl font-bold text-foreground mb-1">{p.name}</h2>
                 {p.subtitulo && <p className="text-sm font-medium text-primary mb-4">{p.subtitulo}</p>}
                 <p className="text-muted-foreground leading-relaxed mb-6">{p.desc}</p>
-                <div className="space-y-3 text-sm">
-                  <p><span className="font-semibold text-foreground">Aplicações:</span> <span className="text-muted-foreground">{p.aplicacoes}</span></p>
-                  <p><span className="font-semibold text-foreground">Cores:</span> <span className="text-muted-foreground">{p.cores}</span></p>
-                  <p><span className="font-semibold text-foreground">Espessuras:</span> <span className="text-muted-foreground">{p.espessuras}</span></p>
+                <div className="space-y-4 text-sm">
+                  <div className="flex items-start gap-3">
+                    <Sparkles size={20} className="text-primary mt-0.5 shrink-0" />
+                    <div>
+                      <span className="font-semibold text-foreground">Aplicações</span>
+                      <p className="text-muted-foreground">{p.aplicacoes}</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Palette size={20} className="text-primary mt-0.5 shrink-0" />
+                    <div>
+                      <span className="font-semibold text-foreground">Cores</span>
+                      <p className="text-muted-foreground">{p.cores}</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <Ruler size={20} className="text-primary mt-0.5 shrink-0" />
+                    <div>
+                      <span className="font-semibold text-foreground">Espessuras</span>
+                      <p className="text-muted-foreground">{p.espessuras}</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
