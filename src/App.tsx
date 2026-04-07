@@ -11,7 +11,6 @@ import QuemSomos from "./pages/QuemSomos";
 import Produtos from "./pages/Produtos";
 import BoxBanheiro from "./pages/BoxBanheiro";
 
-import Acessorios from "./pages/Acessorios";
 import Contato from "./pages/Contato";
 import NotFound from "./pages/NotFound";
 
