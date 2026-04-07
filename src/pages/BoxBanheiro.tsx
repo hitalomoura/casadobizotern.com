@@ -44,7 +44,10 @@ const BoxBanheiro = () => {
           <SectionTitle title="Vidros e Espessuras" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-2xl mx-auto">
             <div>
-              <h3 className="font-heading font-semibold text-lg text-foreground mb-4">Vidros</h3>
+              <div className="flex items-center gap-3 mb-4">
+                <Palette size={22} className="text-primary" />
+                <h3 className="font-heading font-semibold text-lg text-foreground">Vidros</h3>
+              </div>
               <ul className="space-y-2">
                 {tiposVidro.map((t) => (
                   <li key={t} className="flex items-center gap-2 text-muted-foreground">
@@ -54,7 +57,10 @@ const BoxBanheiro = () => {
               </ul>
             </div>
             <div>
-              <h3 className="font-heading font-semibold text-lg text-foreground mb-4">Espessuras</h3>
+              <div className="flex items-center gap-3 mb-4">
+                <Ruler size={22} className="text-primary" />
+                <h3 className="font-heading font-semibold text-lg text-foreground">Espessuras</h3>
+              </div>
               <ul className="space-y-2">
                 {espessuras.map((e) => (
                   <li key={e} className="flex items-center gap-2 text-muted-foreground">
