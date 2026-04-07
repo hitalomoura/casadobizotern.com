@@ -28,8 +28,8 @@ const BoxBanheiro = () => {
               <SectionTitle title="Modelos de Box" centered={false} />
               <div className="space-y-4">
                 {modelos.map((m) => (
-                  <div key={m.name} className="border border-border rounded-lg p-5">
-                    <h3 className="font-heading font-semibold text-foreground mb-1">{m.name}</h3>
+                  <div key={m.nome} className="border border-border rounded-lg p-5">
+                    <h3 className="font-heading font-semibold text-foreground mb-1">{m.nome}</h3>
                     <p className="text-sm text-muted-foreground">{m.desc}</p>
                   </div>
                 ))}

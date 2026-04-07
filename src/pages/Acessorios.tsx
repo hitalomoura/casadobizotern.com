@@ -20,29 +20,15 @@ const Acessorios = () => {
 
       <section className="section-padding">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-            <div>
-              <SectionTitle title="Linha de Acessórios" centered={false} />
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {itens.map((item) => (
-                  <div key={item.name} className="border border-border rounded-lg p-5 hover:border-primary/40 transition-colors">
-                    <h3 className="font-heading font-semibold text-foreground mb-1">{item.name}</h3>
-                    <p className="text-sm text-muted-foreground">{item.desc}</p>
-                  </div>
-                ))}
+          <SectionTitle title="Linha de Acessórios" />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {categorias.map((cat) => (
+              <div key={cat.nome} className="border border-border rounded-lg p-6 hover:border-primary/40 transition-colors">
+                <h3 className="font-heading font-semibold text-foreground mb-2">{cat.nome}</h3>
+                <p className="text-sm text-muted-foreground mb-3">{cat.desc}</p>
+                <p className="text-xs text-primary font-medium">Acabamentos: {cat.acabamentos}</p>
               </div>
-            </div>
-            <div>
-              <img src={acessoriosImg} alt="Acessórios para vidro" loading="lazy" width={640} height={640} className="w-full rounded-lg object-cover aspect-square mb-8" />
-              <div className="bg-muted rounded-lg p-6">
-                <h3 className="font-heading font-semibold text-lg text-foreground mb-4">Acabamentos Disponíveis</h3>
-                <div className="flex flex-wrap gap-3">
-                  {acabamentos.map((a) => (
-                    <span key={a} className="bg-background border border-border rounded-full px-4 py-2 text-sm font-medium text-foreground">{a}</span>
-                  ))}
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>

@@ -100,7 +100,7 @@ const Contato = () => {
                 </div>
                 <div>
                   <label className="text-sm font-medium text-foreground mb-1 block">Mensagem</label>
-                  <Textarea value={form.mensagem} onChange={(e) => setForm({ ...form, mensagem: e.target.value })} required rows={5} placeholder="Descreva o que você precisa..." />
+                  <Textarea value={formData.mensagem} onChange={(e) => setFormData({ ...formData, mensagem: e.target.value })} required rows={5} placeholder="Descreva o que você precisa..." />
                 </div>
                 <Button type="submit" size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-heading font-semibold">
                   Enviar Mensagem
