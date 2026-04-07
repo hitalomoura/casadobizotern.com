@@ -59,7 +59,7 @@ const produtos = [
     name: "Vidro de Controle Solar",
     subtitulo: "Refletivos",
     img: vidroSolar,
-    desc: "Conforto térmico e eficiência energética.",
+    desc: "Menor incidência térmica com maior conforto interno.",
     aplicacoes: "Fachadas, janelas, coberturas",
     cores: "Bronze, fumê, azul (Sun Light)",
     espessuras: "4mm | 6mm | 8mm | 10mm",
