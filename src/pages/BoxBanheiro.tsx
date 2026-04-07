@@ -12,6 +12,9 @@ const modelos = [
   { nome: "Box de Correr", desc: "Sistema deslizante suave, perfeito para otimizar espaço." },
 ];
 
+const tiposVidro = ["Incolor", "Fumê", "Bronze", "Verde"];
+const espessuras = ["6mm", "8mm", "10mm"];
+
 const BoxBanheiro = () => {
   return (
     <main>
