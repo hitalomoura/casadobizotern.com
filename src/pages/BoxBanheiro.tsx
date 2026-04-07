@@ -1,7 +1,7 @@
 import PageBanner from "@/components/PageBanner";
 import SectionTitle from "@/components/SectionTitle";
 import { Button } from "@/components/ui/button";
-import { MessageCircle } from "lucide-react";
+import { MessageCircle, Palette, Ruler } from "lucide-react";
 import boxImg from "@/assets/box-banheiro.jpg";
 
 const modelos = [
