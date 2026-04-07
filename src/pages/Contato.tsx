@@ -88,7 +88,7 @@ const Contato = () => {
               <form onSubmit={handleSubmit} className="space-y-5">
                 <div>
                   <label className="text-sm font-medium text-foreground mb-1 block">Nome</label>
-                  <Input value={form.nome} onChange={(e) => setForm({ ...form, nome: e.target.value })} required placeholder="Seu nome completo" />
+                  <Input value={formData.nome} onChange={(e) => setFormData({ ...formData, nome: e.target.value })} required placeholder="Seu nome completo" />
                 </div>
                 <div>
                   <label className="text-sm font-medium text-foreground mb-1 block">E-mail</label>
