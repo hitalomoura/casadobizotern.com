@@ -11,7 +11,6 @@ import QuemSomos from "./pages/QuemSomos";
 import Produtos from "./pages/Produtos";
 import BoxBanheiro from "./pages/BoxBanheiro";
 
-import Acessorios from "./pages/Acessorios";
 import Contato from "./pages/Contato";
 import NotFound from "./pages/NotFound";
 
@@ -30,7 +29,6 @@ const App = () => (
           <Route path="/produtos" element={<Produtos />} />
           <Route path="/box-banheiro" element={<BoxBanheiro />} />
           
-          <Route path="/acessorios" element={<Acessorios />} />
           <Route path="/contato" element={<Contato />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
