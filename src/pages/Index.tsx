@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import SectionTitle from "@/components/SectionTitle";
 import { Award, Ruler, HeadphonesIcon, Wrench, ArrowRight, MessageCircle } from "lucide-react";
 import heroImg from "@/assets/hero-glass.jpg";
-import boxImg from "@/assets/box-banheiro.jpg";
+
 import vidroIncolor from "@/assets/vidro-incolor.jpg";
 import vidroColorido from "@/assets/vidro-colorido.jpg";
 import vidroLaminado from "@/assets/vidro-laminado.jpg";
@@ -106,27 +106,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Box para Banheiro */}
-      <section className="relative">
-        <img src={boxImg} alt="Box para banheiro" loading="lazy" width={1280} height={720} className="w-full h-[500px] object-cover" />
-        <div className="absolute inset-0 glass-overlay flex items-center">
-          <div className="container mx-auto px-4 md:px-8">
-            <div className="max-w-lg">
-              <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
-                Box para Banheiro
-              </h2>
-              <p className="text-primary-foreground/85 text-lg mb-6">
-                Modelos sob medida com vidro temperado de alta resistência. Design moderno e segurança para seu banheiro.
-              </p>
-              <Link to="/box-banheiro">
-                <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold">
-                  Ver modelos <ArrowRight size={18} className="ml-2" />
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
 
 
       {/* Clientes */}
