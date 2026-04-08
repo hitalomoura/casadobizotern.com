@@ -16,7 +16,9 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 border-b border-border overflow-hidden">
+      <img src={logo} alt="" className="absolute inset-0 w-full h-full object-cover opacity-10 pointer-events-none" />
+      <div className="absolute inset-0 bg-background/90 backdrop-blur-md" />
       <div className="container mx-auto flex items-center justify-between h-20">
         <Link to="/" className="flex items-center gap-2">
           <img src={logo} alt="Casa do Bizotê" className="h-14 w-auto rounded-md" />
