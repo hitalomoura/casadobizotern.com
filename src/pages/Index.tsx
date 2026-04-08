@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import SectionTitle from "@/components/SectionTitle";
 import { Award, Ruler, HeadphonesIcon, Wrench, ArrowRight, MessageCircle } from "lucide-react";
 import heroImg from "@/assets/hero-glass.jpg";
-import boxImg from "@/assets/box-banheiro.jpg";
+
 import vidroIncolor from "@/assets/vidro-incolor.jpg";
 import vidroColorido from "@/assets/vidro-colorido.jpg";
 import vidroLaminado from "@/assets/vidro-laminado.jpg";
