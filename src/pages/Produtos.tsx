@@ -8,6 +8,7 @@ import vidroLaminado from "@/assets/vidro-laminado.jpg";
 import espelho from "@/assets/espelho.jpg";
 import vidroPintado from "@/assets/vidro-pintado.jpg";
 import vidroSolar from "@/assets/vidro-controle-solar.jpg";
+import boxImg from "@/assets/box-banheiro.jpg";
 import bannerProdutos from "@/assets/banner-produtos.jpg";
 
 const produtos = [
