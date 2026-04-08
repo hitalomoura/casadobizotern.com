@@ -66,6 +66,15 @@ const produtos = [
     cores: "Bronze, fumê, azul (Sun Light)",
     espessuras: "4mm | 6mm | 8mm | 10mm",
   },
+  {
+    name: "Box para Banheiro",
+    subtitulo: "Segurança, vedação e sofisticação",
+    img: boxImg,
+    desc: "Modelos de canto, frontal, de abrir e de correr, sob medida para seu banheiro.",
+    aplicacoes: "Banheiros residenciais e comerciais",
+    cores: "Incolor, Fumê, Bronze, Verde",
+    espessuras: "6mm | 8mm | 10mm",
+  },
 ];
 
 const Produtos = () => {
