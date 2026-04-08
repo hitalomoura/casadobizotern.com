@@ -9,7 +9,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Index from "./pages/Index";
 import QuemSomos from "./pages/QuemSomos";
 import Produtos from "./pages/Produtos";
-import BoxBanheiro from "./pages/BoxBanheiro";
+
 
 import Contato from "./pages/Contato";
 import NotFound from "./pages/NotFound";
