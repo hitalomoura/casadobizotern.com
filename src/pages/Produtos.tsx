@@ -8,6 +8,7 @@ import vidroLaminado from "@/assets/vidro-laminado.jpg";
 import espelho from "@/assets/espelho.jpg";
 import vidroPintado from "@/assets/vidro-pintado.jpg";
 import vidroSolar from "@/assets/vidro-controle-solar.jpg";
+import boxImg from "@/assets/box-banheiro.jpg";
 import bannerProdutos from "@/assets/banner-produtos.jpg";
 
 const produtos = [
@@ -64,6 +65,15 @@ const produtos = [
     aplicacoes: "Fachadas, janelas, coberturas",
     cores: "Bronze, fumê, azul (Sun Light)",
     espessuras: "4mm | 6mm | 8mm | 10mm",
+  },
+  {
+    name: "Box para Banheiro",
+    subtitulo: "Segurança, vedação e sofisticação",
+    img: boxImg,
+    desc: "Modelos de canto, frontal, de abrir e de correr, sob medida para seu banheiro.",
+    aplicacoes: "Banheiros residenciais e comerciais",
+    cores: "Incolor, Fumê, Bronze, Verde",
+    espessuras: "6mm | 8mm | 10mm",
   },
 ];
 
