@@ -73,7 +73,7 @@ const produtos = [
     desc: "Modelos de canto, frontal, de abrir e de correr, sob medida para seu banheiro.",
     aplicacoes: "Banheiros residenciais e comerciais",
     cores: "Incolor, Fumê, Bronze, Verde",
-    espessuras: "6mm | 8mm | 10mm",
+    espessuras: "8mm",
   },
 ];
 
