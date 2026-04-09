@@ -63,7 +63,7 @@ const produtos = [
     img: vidroSolar,
     desc: "Menor incidência térmica com maior conforto interno.",
     aplicacoes: "Fachadas, janelas, coberturas",
-    cores: "Bronze, fumê, azul (Sun Light)",
+    cores: "Bronze, Fumê Max, Azul (Sun Light)",
     espessuras: "4mm | 6mm | 8mm | 10mm",
   },
   {
