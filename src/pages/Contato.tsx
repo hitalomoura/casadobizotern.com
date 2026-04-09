@@ -62,7 +62,7 @@ const Contato = () => {
                   </div>
                   <div>
                     <h3 className="font-heading font-semibold text-foreground">Endereço</h3>
-                    <p className="text-muted-foreground">Parnamirim - RN, Brasil</p>
+                    <p className="text-muted-foreground">BR-101, 5697 - Nova Esperança, Parnamirim - RN, CEP: 59143-360</p>
                   </div>
                 </div>
               </div>
