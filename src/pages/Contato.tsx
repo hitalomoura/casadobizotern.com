@@ -34,17 +34,14 @@ const Contato = () => {
                     <Phone size={22} className="text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-heading font-semibold text-foreground">Telefone</h3>
-                    <p className="text-muted-foreground">(84) 99681-0471</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-full bg-glass-teal-light flex items-center justify-center shrink-0">
-                    <MessageCircle size={22} className="text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="font-heading font-semibold text-foreground">WhatsApp</h3>
-                    <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(84) 99681-0471</a>
+                    <h3 className="font-heading font-semibold text-foreground">Vendedores</h3>
+                    <ul className="space-y-1 text-muted-foreground">
+                      <li>Andressa: <a href="https://wa.me/5584998661428" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(84) 9 9866-1428</a></li>
+                      <li>Amanda: <a href="https://wa.me/5584988996151" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(84) 9 8899-6151</a></li>
+                      <li>Flavia: <a href="https://wa.me/5584994627408" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(84) 9 9462-7408</a></li>
+                      <li>Sonaly: <a href="https://wa.me/5584996818393" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(84) 9 9681-8393</a></li>
+                      <li>Wallace: <a href="https://wa.me/5584988294022" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(84) 9 8829-4022</a></li>
+                    </ul>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
