@@ -1,6 +1,7 @@
 import PageBanner from "@/components/PageBanner";
 import SectionTitle from "@/components/SectionTitle";
 import quemSomosImg from "@/assets/quem-somos.jpg";
+import equipeFrotaImg from "@/assets/equipe-frota.jpg";
 import { Target, Eye, Heart } from "lucide-react";
 import bannerQuemSomos from "@/assets/banner-quem-somos.jpg";
 
@@ -44,6 +45,16 @@ const QuemSomos = () => {
             <div className="rounded-lg overflow-hidden">
               <img src={quemSomosImg} alt="Equipe Casa do Bizotê" loading="lazy" width={1280} height={720} className="w-full h-full object-cover" />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Equipe e Frota */}
+      <section className="section-padding bg-muted">
+        <div className="container mx-auto">
+          <SectionTitle title="Nossa Equipe e Frota" />
+          <div className="rounded-lg overflow-hidden">
+            <img src={equipeFrotaImg} alt="Equipe e frota da Casa do Bizotê" loading="lazy" className="w-full h-auto object-cover rounded-lg" />
           </div>
         </div>
       </section>
