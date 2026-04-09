@@ -55,7 +55,7 @@ const Footer = () => {
                 <Mail size={16} className="text-primary" /> casadobizote.financeiro@hotmail.com
               </li>
               <li className="flex items-start gap-2 text-sm text-background/70">
-                <MapPin size={16} className="text-primary mt-0.5" /> Parnamirim - RN
+                <MapPin size={16} className="text-primary mt-0.5" /> BR-101, 5697 - Nova Esperança, Parnamirim - RN, CEP: 59143-360
               </li>
             </ul>
           </div>
