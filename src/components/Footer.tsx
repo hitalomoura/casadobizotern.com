@@ -47,11 +47,13 @@ const Footer = () => {
 
           <div>
             <h4 className="font-heading font-semibold text-sm uppercase tracking-wider mb-4">Contato</h4>
-            <ul className="space-y-3">
-              <li className="flex items-center gap-2 text-sm text-background/70">
-                <Phone size={16} className="text-primary" /> (84) 99681-0471
-              </li>
-              <li className="flex items-center gap-2 text-sm text-background/70">
+            <ul className="space-y-2">
+              <li className="text-sm text-background/70">Andressa: (84) 9 9866-1428</li>
+              <li className="text-sm text-background/70">Amanda: (84) 9 8899-6151</li>
+              <li className="text-sm text-background/70">Flavia: (84) 9 9462-7408</li>
+              <li className="text-sm text-background/70">Sonaly: (84) 9 9681-8393</li>
+              <li className="text-sm text-background/70">Wallace: (84) 9 8829-4022</li>
+              <li className="flex items-center gap-2 text-sm text-background/70 mt-3">
                 <Mail size={16} className="text-primary" /> casadobizote.financeiro@hotmail.com
               </li>
               <li className="flex items-start gap-2 text-sm text-background/70">
