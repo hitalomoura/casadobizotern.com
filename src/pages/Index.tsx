@@ -46,7 +46,7 @@ const Index = () => {
               Soluções em Vidros com Sofisticação e Qualidade
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/85 mb-8 leading-relaxed">
-              Mais que vidro, solução para cada necessidade
+              Mais que vidro, solução para cada projeto
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/contato">
