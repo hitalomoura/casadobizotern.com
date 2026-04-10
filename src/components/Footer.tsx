@@ -68,7 +68,10 @@ const Footer = () => {
               <li className="flex items-center gap-2 text-sm text-background/70 mt-3">
                 <Mail size={16} className="text-primary" /> casadobizote.financeiro@hotmail.com
               </li>
-              <li className="text-xs font-heading font-semibold uppercase tracking-wider text-background/80 mt-3 mb-1">Nossos Endereços</li>
+              <li className="pt-4">
+                <h4 className="font-heading font-semibold text-sm uppercase tracking-wider text-background mb-2">Nossos Endereços</h4>
+                <div className="h-1 w-12 rounded-full bg-primary mb-3" />
+              </li>
               <li className="flex items-start gap-2 text-sm text-background/70">
                 <MapPin size={16} className="text-primary mt-0.5 shrink-0" />
                 <div>
