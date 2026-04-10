@@ -69,7 +69,22 @@ const Footer = () => {
                 <Mail size={16} className="text-primary" /> casadobizote.financeiro@hotmail.com
               </li>
               <li className="flex items-start gap-2 text-sm text-background/70">
-                <MapPin size={16} className="text-primary mt-0.5" /> BR-101, 5697 - Nova Esperança, Parnamirim - RN, CEP: 59143-360
+                <MapPin size={16} className="text-primary mt-0.5 shrink-0" />
+                <div>
+                  <span className="font-semibold text-background/90">Matriz:</span> BR-101, 5697 - Nova Esperança, Parnamirim - RN, CEP: 59143-360
+                </div>
+              </li>
+              <li className="flex items-start gap-2 text-sm text-background/70">
+                <MapPin size={16} className="text-primary mt-0.5 shrink-0" />
+                <div>
+                  <span className="font-semibold text-background/90">Filial Natal:</span> Av. Miguel Castro, 1223 - Nossa Sra. de Nazaré, Natal - RN, 59075-740 · Tel: (84) 3346-6941
+                </div>
+              </li>
+              <li className="flex items-start gap-2 text-sm text-background/70">
+                <MapPin size={16} className="text-primary mt-0.5 shrink-0" />
+                <div>
+                  <span className="font-semibold text-background/90">Filial Fortaleza:</span> Rua A (Lot dos Expedicionários II) 209 - Rachel de Queiroz, Fortaleza - CE, 60714-685 · Tel: (85) 3223-2629
+                </div>
               </li>
             </ul>
           </div>
