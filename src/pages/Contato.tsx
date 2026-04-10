@@ -65,6 +65,7 @@ const Contato = () => {
                     <p className="text-muted-foreground">casadobizote.financeiro@hotmail.com</p>
                   </div>
                 </div>
+                <h3 className="font-heading font-semibold text-foreground text-lg mt-4 mb-2">Nossos Endereços</h3>
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-full bg-glass-teal-light flex items-center justify-center shrink-0">
                     <MapPin size={22} className="text-primary" />
