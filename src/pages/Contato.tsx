@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { useToast } from "@/hooks/use-toast";
 import bannerContato from "@/assets/banner-contato.jpg";
 
@@ -35,12 +36,23 @@ const Contato = () => {
                   </div>
                   <div>
                     <h3 className="font-heading font-semibold text-foreground">Vendedores</h3>
-                    <ul className="space-y-1 text-muted-foreground">
-                      <li>Andressa: <a href="https://wa.me/5584998661428" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(84) 9 9866-1428</a></li>
-                      <li>Amanda: <a href="https://wa.me/5584988996151" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(84) 9 8899-6151</a></li>
-                      <li>Flavia: <a href="https://wa.me/5584994627408" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(84) 9 9462-7408</a></li>
-                      <li>Sonaly: <a href="https://wa.me/5584996818393" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(84) 9 9681-8393</a></li>
-                      <li>Wallace: <a href="https://wa.me/5584988294022" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">(84) 9 8829-4022</a></li>
+                    <ul className="space-y-3 text-muted-foreground">
+                      {[
+                        { name: "Andressa", phone: "(84) 9 9866-1428", wa: "5584998661428" },
+                        { name: "Amanda", phone: "(84) 9 8899-6151", wa: "5584988996151" },
+                        { name: "Flavia", phone: "(84) 9 9462-7408", wa: "5584994627408" },
+                        { name: "Sonaly", phone: "(84) 9 9681-8393", wa: "5584996818393" },
+                        { name: "Wallace", phone: "(84) 9 8829-4022", wa: "5584988294022" },
+                      ].map((v) => (
+                        <li key={v.name} className="flex items-center gap-3">
+                          <Avatar className="h-8 w-8">
+                            <AvatarFallback className="bg-primary/10 text-primary text-xs font-semibold">
+                              {v.name.charAt(0)}
+                            </AvatarFallback>
+                          </Avatar>
+                          <span>{v.name}: <a href={`https://wa.me/${v.wa}`} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">{v.phone}</a></span>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>
