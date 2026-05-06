@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <img src={logo} alt="Casa do Bizotê" className="h-16 w-auto rounded-md mb-4" />
             <p className="text-background/70 text-sm leading-relaxed">
-              Soluções em vidro com sofisticação, qualidade e atendimento especializado.
+              Vidros que refletem qualidade e segurança.
             </p>
           </div>
 
