@@ -10,9 +10,32 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
             <img src={logo} alt="Casa do Bizotê" className="h-16 w-auto rounded-md mb-4" />
-            <p className="text-background/70 text-sm leading-relaxed">
+            <p className="text-background/70 text-sm leading-relaxed mb-6">
               Vidros que refletem qualidade e segurança.
             </p>
+
+            <h4 className="font-heading font-semibold text-sm uppercase tracking-wider text-background mb-2">Nossos Endereços</h4>
+            <div className="h-1 w-12 rounded-full bg-primary mb-3" />
+            <ul className="space-y-3">
+              <li className="flex items-start gap-2 text-sm text-background/70">
+                <MapPin size={16} className="text-primary mt-0.5 shrink-0" />
+                <div>
+                  <span className="font-semibold text-background/90">Matriz:</span> BR-101, 5697 - Nova Esperança, Parnamirim - RN, CEP: 59143-360
+                </div>
+              </li>
+              <li className="flex items-start gap-2 text-sm text-background/70">
+                <MapPin size={16} className="text-primary mt-0.5 shrink-0" />
+                <div>
+                  <span className="font-semibold text-background/90">Filial Natal:</span> Av. Miguel Castro, 1223 - Nossa Sra. de Nazaré, Natal - RN, 59075-740 · Tel: (84) 3346-6941
+                </div>
+              </li>
+              <li className="flex items-start gap-2 text-sm text-background/70">
+                <MapPin size={16} className="text-primary mt-0.5 shrink-0" />
+                <div>
+                  <span className="font-semibold text-background/90">Filial Fortaleza:</span> Rua A (Lot dos Expedicionários II) 209 - Rachel de Queiroz, Fortaleza - CE, 60714-685 · Tel: (85) 3223-2629
+                </div>
+              </li>
+            </ul>
           </div>
 
           <div>
