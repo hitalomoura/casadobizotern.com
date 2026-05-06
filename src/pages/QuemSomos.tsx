@@ -1,6 +1,7 @@
 import PageBanner from "@/components/PageBanner";
 import SectionTitle from "@/components/SectionTitle";
 import quemSomosImg from "@/assets/quem-somos.jpg";
+import fachadaImg from "@/assets/fachada-casa-bizote.jpg";
 import { Target, Eye, Heart } from "lucide-react";
 import bannerQuemSomos from "@/assets/banner-quem-somos.jpg";
 
