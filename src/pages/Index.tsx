@@ -43,7 +43,7 @@ const Index = () => {
         <div className="relative container mx-auto px-4 md:px-8 py-20">
           <div className="max-w-2xl animate-fade-in-up">
             <h1 className="font-heading text-4xl md:text-6xl font-bold text-primary-foreground leading-tight mb-6">
-              Soluções em Vidros com Sofisticação e Qualidade
+              Vidros que refletem qualidade e segurança
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/85 mb-8 leading-relaxed">
               Mais que vidro, solução para cada projeto
