@@ -28,11 +28,6 @@ const produtos = [
 ];
 
 
-const clientes = [
-  "Construtora Alpha", "Arquitetura Studio", "Design Interior", "Vidraçaria Premium",
-  "Engenharia & Cia", "Projeto Conceito",
-];
-
 const Index = () => {
   return (
     <main className="pt-20">
