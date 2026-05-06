@@ -1,7 +1,7 @@
 import PageBanner from "@/components/PageBanner";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Sparkles, Palette, Ruler } from "lucide-react";
+import { ArrowRight, Sparkles, Palette, Ruler, MessageCircle } from "lucide-react";
 import vidroIncolor from "@/assets/vidro-incolor.jpg";
 import vidroColorido from "@/assets/vidro-colorido.jpg";
 import vidroLaminado from "@/assets/vidro-laminado.jpg";
