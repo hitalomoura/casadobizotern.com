@@ -28,11 +28,6 @@ const produtos = [
 ];
 
 
-const clientes = [
-  "Construtora Alpha", "Arquitetura Studio", "Design Interior", "Vidraçaria Premium",
-  "Engenharia & Cia", "Projeto Conceito",
-];
-
 const Index = () => {
   return (
     <main className="pt-20">
@@ -106,21 +101,6 @@ const Index = () => {
         </div>
       </section>
 
-
-
-      {/* Clientes */}
-      <section className="section-padding bg-muted">
-        <div className="container mx-auto">
-          <SectionTitle title="Nossos Clientes" subtitle="Empresas e clientes que confiam na Casa do Bizotê" />
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-            {clientes.map((c) => (
-              <div key={c} className="bg-background rounded-lg p-6 flex items-center justify-center text-center shadow-sm">
-                <span className="font-heading font-semibold text-sm text-muted-foreground">{c}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA Final */}
       <section className="bg-primary section-padding text-center">
