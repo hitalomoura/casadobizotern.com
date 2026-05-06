@@ -1,6 +1,7 @@
 import PageBanner from "@/components/PageBanner";
 import SectionTitle from "@/components/SectionTitle";
 import quemSomosImg from "@/assets/quem-somos.jpg";
+import fachadaImg from "@/assets/fachada-casa-bizote.jpg";
 import { Target, Eye, Heart } from "lucide-react";
 import bannerQuemSomos from "@/assets/banner-quem-somos.jpg";
 
@@ -41,8 +42,13 @@ const QuemSomos = () => {
                 Seguimos com o compromisso de atender o mercado de forma transparente e responsável, oferecendo produtos e serviços com elevado padrão de qualidade, contribuindo continuamente para o desenvolvimento econômico e social.
               </p>
             </div>
-            <div className="rounded-lg overflow-hidden">
-              <img src={quemSomosImg} alt="Equipe Casa do Bizotê" loading="lazy" width={1280} height={720} className="w-full h-full object-cover" />
+            <div className="space-y-6">
+              <div className="rounded-lg overflow-hidden">
+                <img src={quemSomosImg} alt="Equipe Casa do Bizotê" loading="lazy" width={1280} height={720} className="w-full h-full object-cover" />
+              </div>
+              <div className="rounded-lg overflow-hidden">
+                <img src={fachadaImg} alt="Fachada da sede da Casa do Bizotê" loading="lazy" width={1280} height={1280} className="w-full h-full object-cover" />
+              </div>
             </div>
           </div>
         </div>
