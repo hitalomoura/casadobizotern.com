@@ -101,7 +101,7 @@ const Index = () => {
       <section className="bg-primary section-padding text-center">
         <div className="container mx-auto">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
-            Solicite seu orçamento agora mesmo
+            Fale com a gente agora mesmo
           </h2>
           <p className="text-primary-foreground/80 text-lg mb-8 max-w-xl mx-auto">
             Entre em contato pelo WhatsApp e receba um atendimento personalizado.
