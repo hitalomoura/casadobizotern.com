@@ -68,7 +68,7 @@ const Header = () => {
             ))}
             <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer">
               <Button className="w-full bg-primary text-primary-foreground hover:bg-primary/90 font-heading font-semibold mt-2">
-                Solicitar Orçamento
+                <MessageCircle size={18} className="mr-2" /> Fale no WhatsApp
               </Button>
             </a>
           </nav>
