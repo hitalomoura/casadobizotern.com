@@ -44,11 +44,6 @@ const Index = () => {
               Mais que vidro, solução para cada projeto
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link to="/contato">
-                <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold text-base px-8">
-                  Solicitar Orçamento
-                </Button>
-              </Link>
               <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold text-base px-8">
                   <MessageCircle size={20} className="mr-2" /> Fale no WhatsApp
