@@ -44,11 +44,6 @@ const Index = () => {
               Mais que vidro, solução para cada projeto
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link to="/contato">
-                <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold text-base px-8">
-                  Solicitar Orçamento
-                </Button>
-              </Link>
               <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold text-base px-8">
                   <MessageCircle size={20} className="mr-2" /> Fale no WhatsApp
@@ -106,7 +101,7 @@ const Index = () => {
       <section className="bg-primary section-padding text-center">
         <div className="container mx-auto">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
-            Solicite seu orçamento agora mesmo
+            Fale com a gente agora mesmo
           </h2>
           <p className="text-primary-foreground/80 text-lg mb-8 max-w-xl mx-auto">
             Entre em contato pelo WhatsApp e receba um atendimento personalizado.

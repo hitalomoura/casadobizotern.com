@@ -1,7 +1,7 @@
 import PageBanner from "@/components/PageBanner";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Sparkles, Palette, Ruler } from "lucide-react";
+import { ArrowRight, Sparkles, Palette, Ruler, MessageCircle } from "lucide-react";
 import vidroIncolor from "@/assets/vidro-incolor.jpg";
 import vidroColorido from "@/assets/vidro-colorido.jpg";
 import vidroLaminado from "@/assets/vidro-laminado.jpg";
@@ -125,12 +125,12 @@ const Produtos = () => {
       <section className="bg-primary section-padding text-center">
         <div className="container mx-auto">
           <h2 className="font-heading text-3xl font-bold text-primary-foreground mb-4">Não encontrou o que procura?</h2>
-          <p className="text-primary-foreground/80 mb-8">Entre em contato e solicite um orçamento personalizado.</p>
-          <Link to="/contato">
+          <p className="text-primary-foreground/80 mb-8">Entre em contato pelo WhatsApp e receba um atendimento personalizado.</p>
+          <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold">
-              Solicitar Orçamento <ArrowRight size={18} className="ml-2" />
+              <MessageCircle size={20} className="mr-2" /> Fale no WhatsApp
             </Button>
-          </Link>
+          </a>
         </div>
       </section>
     </main>
