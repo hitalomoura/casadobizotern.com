@@ -20,7 +20,7 @@ const Footer = () => {
               <li className="flex items-start gap-2 text-sm text-background/70">
                 <MapPin size={16} className="text-primary mt-0.5 shrink-0" />
                 <div>
-                  <span className="font-semibold text-background/90">Matriz:</span> BR-101, 5697 - Nova Esperança, Parnamirim - RN, CEP: 59143-360
+                  <span className="font-semibold text-background/90">Matriz:</span> Rua A (Lot dos Expedicionários II) 209 - Rachel de Queiroz, Fortaleza - CE, 60714-685 · Tel: (85) 3223-2629
                 </div>
               </li>
               <li className="flex items-start gap-2 text-sm text-background/70">
@@ -32,7 +32,7 @@ const Footer = () => {
               <li className="flex items-start gap-2 text-sm text-background/70">
                 <MapPin size={16} className="text-primary mt-0.5 shrink-0" />
                 <div>
-                  <span className="font-semibold text-background/90">Filial Fortaleza:</span> Rua A (Lot dos Expedicionários II) 209 - Rachel de Queiroz, Fortaleza - CE, 60714-685 · Tel: (85) 3223-2629
+                  <span className="font-semibold text-background/90">Filial Parnamirim:</span> BR-101, 5697 - Nova Esperança, Parnamirim - RN, CEP: 59143-360
                 </div>
               </li>
             </ul>

@@ -71,8 +71,9 @@ const Contato = () => {
                     <MapPin size={22} className="text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-heading font-semibold text-foreground">Matriz - Parnamirim</h3>
-                    <p className="text-muted-foreground">BR-101, 5697 - Nova Esperança, Parnamirim - RN, CEP: 59143-360</p>
+                    <h3 className="font-heading font-semibold text-foreground">Matriz - Fortaleza</h3>
+                    <p className="text-muted-foreground">Rua A (Lot dos Expedicionários II) 209 - Rachel de Queiroz, Fortaleza - CE, 60714-685</p>
+                    <p className="text-muted-foreground">Tel: (85) 3223-2629</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -90,9 +91,8 @@ const Contato = () => {
                     <MapPin size={22} className="text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-heading font-semibold text-foreground">Filial Fortaleza</h3>
-                    <p className="text-muted-foreground">Rua A (Lot dos Expedicionários II) 209 - Rachel de Queiroz, Fortaleza - CE, 60714-685</p>
-                    <p className="text-muted-foreground">Tel: (85) 3223-2629</p>
+                    <h3 className="font-heading font-semibold text-foreground">Filial Parnamirim</h3>
+                    <p className="text-muted-foreground">BR-101, 5697 - Nova Esperança, Parnamirim - RN, CEP: 59143-360</p>
                   </div>
                 </div>
               </div>
