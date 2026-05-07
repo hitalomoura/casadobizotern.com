@@ -40,6 +40,7 @@ const Contato = () => {
                       {[
                         { name: "Andressa", phone: "(84) 9 9866-1428", wa: "5584998661428" },
                         { name: "Amanda", phone: "(84) 9 8899-6151", wa: "5584988996151" },
+                        { name: "Eliana", phone: "(84) 9 9681-0471", wa: "5584996810471" },
                         { name: "Flavia", phone: "(84) 9 9462-7408", wa: "5584994627408" },
                         { name: "Sonaly", phone: "(84) 9 9681-8393", wa: "5584996818393" },
                         { name: "Wallace", phone: "(84) 9 8829-4022", wa: "5584988294022" },
