@@ -9,14 +9,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
             <img src={logo} alt="Casa do Bizotê" className="h-16 w-auto rounded-md mb-4" />
-            <p className="text-background/70 text-sm leading-relaxed mb-6">
+            <p className="text-background/70 text-sm leading-relaxed">
               Vidros que refletem qualidade e segurança.
-            </p>
-
-            <h4 className="font-heading font-semibold text-sm uppercase tracking-wider text-background mb-2">E-mail</h4>
-            <div className="h-1 w-12 rounded-full bg-primary mb-3" />
-            <p className="flex items-center gap-2 text-sm text-background/70">
-              <Mail size={16} className="text-primary" /> casadobizote.financeiro@hotmail.com
             </p>
           </div>
 
@@ -53,8 +47,8 @@ const Footer = () => {
 
           <div>
             <h4 className="font-heading font-semibold text-sm uppercase tracking-wider mb-4">Contato</h4>
-            <p className="text-sm text-background/70">
-              Entre em contato pelo formulário na página de contato ou pelo WhatsApp.
+            <p className="flex items-center gap-2 text-sm text-background/70">
+              <Mail size={16} className="text-primary" /> casadobizote.financeiro@hotmail.com
             </p>
           </div>
         </div>
