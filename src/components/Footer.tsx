@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin } from "lucide-react";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Mail } from "lucide-react";
 import logo from "@/assets/logo.jpeg";
 
 const Footer = () => {
@@ -14,28 +13,11 @@ const Footer = () => {
               Vidros que refletem qualidade e segurança.
             </p>
 
-            <h4 className="font-heading font-semibold text-sm uppercase tracking-wider text-background mb-2">Nossos Endereços</h4>
+            <h4 className="font-heading font-semibold text-sm uppercase tracking-wider text-background mb-2">E-mail</h4>
             <div className="h-1 w-12 rounded-full bg-primary mb-3" />
-            <ul className="space-y-3">
-              <li className="flex items-start gap-2 text-sm text-background/70">
-                <MapPin size={16} className="text-primary mt-0.5 shrink-0" />
-                <div>
-                  <span className="font-semibold text-background/90">Matriz:</span> Rua A (Lot dos Expedicionários II) 209 - Rachel de Queiroz, Fortaleza - CE, 60714-685 · Tel: (85) 3223-2629
-                </div>
-              </li>
-              <li className="flex items-start gap-2 text-sm text-background/70">
-                <MapPin size={16} className="text-primary mt-0.5 shrink-0" />
-                <div>
-                  <span className="font-semibold text-background/90">Filial Natal:</span> Av. Miguel Castro, 1223 - Nossa Sra. de Nazaré, Natal - RN, 59075-740 · Tel: (84) 3346-6941
-                </div>
-              </li>
-              <li className="flex items-start gap-2 text-sm text-background/70">
-                <MapPin size={16} className="text-primary mt-0.5 shrink-0" />
-                <div>
-                  <span className="font-semibold text-background/90">Filial Parnamirim:</span> BR-101, 5697 - Nova Esperança, Parnamirim - RN, CEP: 59143-360
-                </div>
-              </li>
-            </ul>
+            <p className="flex items-center gap-2 text-sm text-background/70">
+              <Mail size={16} className="text-primary" /> casadobizote.financeiro@hotmail.com
+            </p>
           </div>
 
           <div>
@@ -71,27 +53,9 @@ const Footer = () => {
 
           <div>
             <h4 className="font-heading font-semibold text-sm uppercase tracking-wider mb-4">Contato</h4>
-            <ul className="space-y-2">
-              {[
-                { name: "Andressa", phone: "(84) 9 9866-1428" },
-                { name: "Amanda", phone: "(84) 9 8899-6151" },
-                { name: "Flavia", phone: "(84) 9 9462-7408" },
-                { name: "Sonaly", phone: "(84) 9 9681-8393" },
-                { name: "Wallace", phone: "(84) 9 8829-4022" },
-              ].map((v) => (
-                <li key={v.name} className="flex items-center gap-2 text-sm text-background/70">
-                  <Avatar className="h-6 w-6">
-                    <AvatarFallback className="bg-primary/20 text-primary text-[10px] font-semibold">
-                      {v.name.charAt(0)}
-                    </AvatarFallback>
-                  </Avatar>
-                  {v.name}: {v.phone}
-                </li>
-              ))}
-              <li className="flex items-center gap-2 text-sm text-background/70 mt-3">
-                <Mail size={16} className="text-primary" /> casadobizote.financeiro@hotmail.com
-              </li>
-            </ul>
+            <p className="text-sm text-background/70">
+              Entre em contato pelo formulário na página de contato ou pelo WhatsApp.
+            </p>
           </div>
         </div>
 
