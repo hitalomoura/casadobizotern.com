@@ -33,7 +33,7 @@ const QuemSomos = () => {
                 Em 2019, diante de um cenário global desafiador causado pela pandemia, muitas empresas enfrentaram grandes dificuldades. No entanto, sustentados por uma estrutura comercial sólida e uma gestão financeira consistente, seguimos na contramão do mercado, alcançando um crescimento expressivo e expandindo nossas operações.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Até 2025, a Casa do Bizotê passou por importantes transformações. Conquistamos nossa sede própria, ampliando significativamente nossa estrutura produtiva com a aquisição de um novo forno, ainda mais moderno e eficiente, que proporciona maior agilidade e excelência nos processos.
+                Até 2025, a Casa do Bizotê - Parnamirim/RN passou por importantes transformações. Conquistamos nossa sede própria, ampliando significativamente nossa estrutura produtiva com a aquisição de um novo forno, ainda mais moderno e eficiente, que proporciona maior agilidade e excelência nos processos.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Na nova unidade, incorporamos maquinários de alta performance, como ponte rolante, furadeiras e lapidadoras, consolidando a Casa do Bizotê - Parnamirim/RN como referência em produtividade e eficiência nos prazos de entrega.
