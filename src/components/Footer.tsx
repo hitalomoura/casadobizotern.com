@@ -48,7 +48,7 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold text-sm uppercase tracking-wider mb-4">Contato</h4>
             <p className="flex items-center gap-2 text-sm text-background/70">
-              <Mail size={16} className="text-primary" /> casadobizote.financeiro@hotmail.com
+              <Mail size={16} className="text-primary" /> contato@casadobizotern.com
             </p>
           </div>
         </div>

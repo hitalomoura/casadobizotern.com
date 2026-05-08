@@ -63,7 +63,7 @@ const QuemSomos = () => {
               {
                 icon: Target,
                 title: "Missão",
-                text: "Atender ao mercado consumidor de vidros e espelho de forma transparente e responsavel, com excelência na qualidade dos produtos e serviços, para contribuir com o desenvolvimento social e econômico da região onde atuamos.",
+                text: "Atender ao mercado consumidor de vidros e espelhos de forma transparente e responsável, com excelência na qualidade dos produtos e serviços, para contribuir com o desenvolvimento social e econômico da região onde atuamos.",
               },
               {
                 icon: Eye,

@@ -63,7 +63,7 @@ const Contato = () => {
                   </div>
                   <div>
                     <h3 className="font-heading font-semibold text-foreground">E-mail</h3>
-                    <p className="text-muted-foreground">casadobizote.financeiro@hotmail.com</p>
+                    <p className="text-muted-foreground">contato@casadobizotern.com</p>
                   </div>
                 </div>
                 <SectionTitle title="Nossos Endereços" centered={false} />
