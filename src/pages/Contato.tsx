@@ -4,7 +4,7 @@ import SectionTitle from "@/components/SectionTitle";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Phone, Mail, MapPin, Clock, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, MessageCircle, Instagram } from "lucide-react";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { useToast } from "@/hooks/use-toast";
 import bannerContato from "@/assets/banner-contato.jpg";
@@ -64,6 +64,15 @@ const Contato = () => {
                   <div>
                     <h3 className="font-heading font-semibold text-foreground">E-mail</h3>
                     <p className="text-muted-foreground">contato@casadobizotern.com</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-full bg-glass-teal-light flex items-center justify-center shrink-0">
+                    <Instagram size={22} className="text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-heading font-semibold text-foreground">Instagram</h3>
+                    <a href="https://instagram.com/casadobizoteparnamirm" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">@casadobizoteparnamirm</a>
                   </div>
                 </div>
                 <SectionTitle title="Nossos Endereços" centered={false} />
