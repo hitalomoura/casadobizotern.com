@@ -15,13 +15,13 @@ const QuemSomos = () => {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <SectionTitle title="Sobre a Casa do Bizotê" centered={false} />
+              <SectionTitle title="Sobre a Casa do Bizotê - Parnamirim/RN" centered={false} />
               <p className="text-muted-foreground leading-relaxed mb-6">
-                A Casa do Bizotê é uma empresa especializada em soluções em vidro, atuando com foco em qualidade, sofisticação e excelência no atendimento. Com um portfólio completo, atende projetos residenciais e comerciais, entregando segurança, estética e durabilidade.
+                A Casa do Bizotê - Parnamirim/RN é uma empresa especializada em soluções em vidro, atuando com foco em qualidade, sofisticação e excelência no atendimento. Com um portfólio completo, atende projetos residenciais e comerciais, entregando segurança, estética e durabilidade.
               </p>
               <h3 className="font-heading font-semibold text-xl text-foreground mb-3">Nossa História</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                A Casa do Bizotê nasceu em 03 de dezembro de 2014, iniciando suas atividades como uma distribuidora de vidros comuns e espelhos, localizada na região de Monte Castelo, em Parnamirim/RN.
+                A Casa do Bizotê - Parnamirim/RN nasceu em 03 de dezembro de 2014, iniciando suas atividades como uma distribuidora de vidros comuns e espelhos, localizada na região de Monte Castelo, em Parnamirim/RN.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Em meados de 2016, atentos às demandas do mercado vidraceiro, ampliamos nossa atuação e passamos a produzir vidros temperados. Naquele momento, com recursos limitados, iniciamos a operação com um forno vertical — mas sempre com uma visão de crescimento bem definida.
@@ -33,10 +33,10 @@ const QuemSomos = () => {
                 Em 2019, diante de um cenário global desafiador causado pela pandemia, muitas empresas enfrentaram grandes dificuldades. No entanto, sustentados por uma estrutura comercial sólida e uma gestão financeira consistente, seguimos na contramão do mercado, alcançando um crescimento expressivo e expandindo nossas operações.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Até 2025, a Casa do Bizotê passou por importantes transformações. Conquistamos nossa sede própria, ampliando significativamente nossa estrutura produtiva com a aquisição de um novo forno, ainda mais moderno e eficiente, que proporciona maior agilidade e excelência nos processos.
+                Até 2025, a Casa do Bizotê - Parnamirim/RN passou por importantes transformações. Conquistamos nossa sede própria, ampliando significativamente nossa estrutura produtiva com a aquisição de um novo forno, ainda mais moderno e eficiente, que proporciona maior agilidade e excelência nos processos.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Na nova unidade, incorporamos maquinários de alta performance, como ponte rolante, furadeiras e lapidadoras, consolidando a Casa do Bizotê como referência em produtividade e eficiência nos prazos de entrega.
+                Na nova unidade, incorporamos maquinários de alta performance, como ponte rolante, furadeiras e lapidadoras, consolidando a Casa do Bizotê - Parnamirim/RN como referência em produtividade e eficiência nos prazos de entrega.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Seguimos com o compromisso de atender o mercado de forma transparente e responsável, oferecendo produtos e serviços com elevado padrão de qualidade, contribuindo continuamente para o desenvolvimento econômico e social.
