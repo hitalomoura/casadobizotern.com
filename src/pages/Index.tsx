@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import SectionTitle from "@/components/SectionTitle";
-import { Award, Ruler, HeadphonesIcon, Wrench, ArrowRight, MessageCircle } from "lucide-react";
+import { Award, Ruler, HeadphonesIcon, Wrench, ArrowRight, MessageCircle, Instagram } from "lucide-react";
 import heroImg from "@/assets/hero-glass.jpg";
 
 import vidroIncolor from "@/assets/vidro-incolor.jpg";
@@ -43,10 +43,15 @@ const Index = () => {
             <p className="text-lg md:text-xl text-primary-foreground/85 mb-8 leading-relaxed">
               Mais que vidro, solução para cada projeto
             </p>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-col gap-4 items-start">
               <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold text-base px-8">
                   <MessageCircle size={20} className="mr-2" /> Fale no WhatsApp
+                </Button>
+              </a>
+              <a href="https://instagram.com/casadobizoteparnamirm" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold text-base px-8">
+                  <Instagram size={20} className="mr-2" /> Siga no Instagram
                 </Button>
               </a>
             </div>
