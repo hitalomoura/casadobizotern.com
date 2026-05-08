@@ -68,7 +68,7 @@ const produtos = [
   },
   {
     name: "Box para Banheiro",
-    subtitulo: "Segurança, vedação e sofisticação",
+    subtitulo: "Temperado",
     img: boxImg,
     desc: "Modelos de canto, frontal, de abrir e de correr, sob medida para seu banheiro.",
     aplicacoes: "Banheiros residenciais e comerciais",
