@@ -35,7 +35,7 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold text-sm uppercase tracking-wider mb-4">Produtos</h4>
             <ul className="space-y-2">
-              {["Vidro Incolor", "Vidro Colorido", "Vidro Laminado", "Espelhos", "Box para Banheiro"].map((p) => (
+              {["Vidro Incolor", "Vidro Colorido", "Vidro Laminado", "Espelho", "Box para Banheiro"].map((p) => (
                 <li key={p}>
                   <Link to="/produtos" className="text-sm text-background/70 hover:text-primary transition-colors">
                     {p}
