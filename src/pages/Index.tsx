@@ -22,7 +22,7 @@ const produtos = [
   { name: "Vidro Incolor", img: vidroIncolor },
   { name: "Vidro Colorido", img: vidroColorido },
   { name: "Vidro Laminado", img: vidroLaminado },
-  { name: "Espelhos", img: espelho },
+  { name: "Espelho", img: espelho },
   { name: "Vidro Pintado", img: vidroPintado },
   { name: "Vidro de Controle Solar", img: vidroSolar },
 ];
@@ -44,7 +44,7 @@ const Index = () => {
               Mais que vidro, solução para cada projeto
             </p>
             <div className="flex flex-col gap-4 items-start">
-              <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5584999430160" target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold text-base px-8">
                   <MessageCircle size={20} className="mr-2" /> Fale no WhatsApp
                 </Button>
@@ -111,7 +111,7 @@ const Index = () => {
           <p className="text-primary-foreground/80 text-lg mb-8 max-w-xl mx-auto">
             Entre em contato pelo WhatsApp e receba um atendimento personalizado.
           </p>
-          <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/5584999430160" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold text-base px-10">
               <MessageCircle size={22} className="mr-2" /> Fale no WhatsApp
             </Button>

@@ -40,7 +40,7 @@ const produtos = [
     espessuras: "6mm (3+3) | 8mm (4+4)",
   },
   {
-    name: "Espelhos",
+    name: "Espelho",
     subtitulo: "",
     img: espelho,
     desc: "Amplitude e sofisticação para qualquer ambiente.",
@@ -126,7 +126,7 @@ const Produtos = () => {
         <div className="container mx-auto">
           <h2 className="font-heading text-3xl font-bold text-primary-foreground mb-4">Não encontrou o que procura?</h2>
           <p className="text-primary-foreground/80 mb-8">Entre em contato pelo WhatsApp e receba um atendimento personalizado.</p>
-          <a href="https://wa.me/5584996810471" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/5584999430160" target="_blank" rel="noopener noreferrer">
             <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold">
               <MessageCircle size={20} className="mr-2" /> Fale no WhatsApp
             </Button>
