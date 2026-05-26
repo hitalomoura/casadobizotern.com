@@ -41,6 +41,7 @@ const produtos = [
   },
   {
     name: "Espelho",
+    subtitulo: "Nacional",
     subtitulo: "",
     img: espelho,
     desc: "Amplitude e sofisticação para qualquer ambiente.",
