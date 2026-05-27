@@ -24,7 +24,7 @@ const QuemSomos = () => {
                 A Casa do Bizotê - Parnamirim/RN nasceu em 03 de dezembro de 2014, iniciando suas atividades como uma distribuidora de vidros comuns e espelhos, localizada na região de Monte Castelo, em Parnamirim/RN.
               </p>
               <p className="text-muted-foreground leading-relaxed text-justify mb-4">
-                Em meados de 2016, atentos às demandas do mercado vidraceiro, ampliamos nossa atuação e passamos a produzir vidros temperados. Naquele momento, com recursos limitados, iniciamos a operação com um forno vertical — mas sempre com uma visão de crescimento bem definida.
+                Em meados de 2016, atentos às demandas do mercado vidreiro, ampliamos nossa atuação e passamos a produzir vidros temperados. Naquele momento, com recursos limitados, iniciamos a operação com um forno vertical — mas sempre com uma visão de crescimento bem definida.
               </p>
               <p className="text-muted-foreground leading-relaxed text-justify mb-4">
                 Em 2018, um novo investimento elevou significativamente o potencial do negócio: adquirimos um forno horizontal, proporcionando maior capacidade produtiva e um padrão superior de qualidade. A evolução foi evidente e, com o aumento da produção, intensificamos os investimentos em tecnologia e equipamentos de alto desempenho.
